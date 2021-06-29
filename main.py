@@ -26,8 +26,6 @@ def main():
 
     pxdata = img.load()
 
-    print(hue)
-
     [width, height] = img.size
     for x in range(width):
         progressBar(x, width)
